@@ -3,7 +3,7 @@ def my_each(arry)
     indx = 0
 
     while (indx < arry.length)
-      yield (arry[i])
+      yield (arry[indx])
       indx += 1
     end
     arry
