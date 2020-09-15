@@ -1,4 +1,4 @@
-def my_each(arry) 
+def my_each(arry)
   if block_given?
     indx = 0
 
