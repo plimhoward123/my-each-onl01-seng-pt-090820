@@ -5,7 +5,6 @@ def my_each(arry)
       indx += 1
     end
     arry
-  end
 end
 
 collection = [1, 2, 3, 4]
