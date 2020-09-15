@@ -8,6 +8,8 @@ def my_each(arry)
 end
 
 collection = [1, 2, 3, 4]
+newArry = []
 my_each(collection) do |i|
-  puts i
+  newArry << i
 end
+newArry
