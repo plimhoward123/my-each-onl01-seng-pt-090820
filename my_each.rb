@@ -1,14 +1,10 @@
 def my_each(arry)
-  if block_given?
-    indx = 0
-
-    while (indx < arry.length)
-      yield (arry[indx])
+  indx = 0
+  while (indx < arry.length)
+    yield (arry[indx])
       indx += 1
     end
     arry
-  else
-    puts "No block given"
   end
 end
 
